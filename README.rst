@@ -1,0 +1,39 @@
++++++++++++++++++++
+python-htmlentities
++++++++++++++++++++
+
+HTML Entities for Python
+
+encoding
+========
+
+You can encode a char to your htmlentitie relative using ``encode`` method: ::
+
+    import htmlentities
+
+    htmlentities.encode('<') # returns "&lt"
+
+development
+===========
+
+* Source hosted at `GitHub <http://github.com/cobrateam/django-htmlmin>`_
+* Report issues on `GitHub Issues <http://github.com/cobrateam/django-htmlmin/issues>`_
+
+Pull requests are very welcomed! Make sure your patches are well tested.
+
+running the tests
+-----------------
+
+if you are using a virtualenv, all you need is:
+
+::
+
+    $ make test
+
+community
+=========
+
+irc channel
+-----------
+
+#cobrateam channel on irc.freenode.net
