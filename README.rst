@@ -23,6 +23,16 @@ You can encode a char to your htmlentitie relative using ``encode`` method: ::
 
     htmlentities.encode('<') # returns "&lt"
 
+decoding
+--------
+
+You can decode a htmlentitie to your relative char using ``decode`` method: ::
+
+    import htmlentities
+
+    htmlentities.decode('&lt') # returns "<"
+
+
 development
 ===========
 
