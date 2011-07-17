@@ -3,7 +3,7 @@ from htmlentitydefs import codepoint2name, name2codepoint
 import re
 
 
-__version__ = '0.1.1'
+__version__ = '0.2'
 
 
 def encode(source):
