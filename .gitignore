@@ -1,3 +1,6 @@
 *.pyc
 *.swp
 .coverage
+build/
+dist/
+htmlentities.egg-info/
