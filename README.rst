@@ -4,8 +4,18 @@ python-htmlentities
 
 HTML Entities for Python
 
+Installing
+==========
+
+For install python-htmlentities, run on terminal: ::
+
+    $ [sudo] pip install htmlentities
+
+Using htmlentities
+==================
+
 encoding
-========
+--------
 
 You can encode a char to your htmlentitie relative using ``encode`` method: ::
 
