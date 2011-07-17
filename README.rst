@@ -16,8 +16,8 @@ You can encode a char to your htmlentitie relative using ``encode`` method: ::
 development
 ===========
 
-* Source hosted at `GitHub <http://github.com/cobrateam/django-htmlmin>`_
-* Report issues on `GitHub Issues <http://github.com/cobrateam/django-htmlmin/issues>`_
+* Source hosted at `GitHub <http://github.com/cobrateam/python-htmlentities>`_
+* Report issues on `GitHub Issues <http://github.com/cobrateam/python-htmlentities/issues>`_
 
 Pull requests are very welcomed! Make sure your patches are well tested.
 
