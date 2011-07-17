@@ -1,6 +1,9 @@
 from htmlentitydefs import codepoint2name
 
 
+__version__ = '0.1'
+
+
 def encode(source):
     new_source = ''
 
