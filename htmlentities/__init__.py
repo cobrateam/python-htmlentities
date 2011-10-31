@@ -21,5 +21,5 @@ def decode(source):
     for entitie in re.findall('&(?:[a-z][a-z0-9]+);', source):
         entitie = entitie.replace('&', '')
         entitie = entitie.replace(';', '')
-        source = source.replace('&%s;' % entitie, chr(name2codepoint[entitie]))
+        source = source.replace('&%s;' % entitie, unichr(name2codepoint[entitie]))
     return source
