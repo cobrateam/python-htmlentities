@@ -1,9 +1,10 @@
-from htmlentitydefs import codepoint2name, name2codepoint
-
 import re
 
+from six.moves.html_entities import codepoint2name, name2codepoint
+from six import unichr
 
-__version__ = '0.2.1'
+
+__version__ = '0.3.0'
 
 
 def encode(source):
